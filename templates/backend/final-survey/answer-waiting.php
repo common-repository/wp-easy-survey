@@ -1,0 +1,1 @@
+<div class="wpes-final-survey-answer-legend-color alignleft" style="background-color:#<?php echo $answers_type[ 'not_answered' ][ 'color' ]; ?>;" ></div><?php _e( 'No answer were given to this issue' , 'wp_easy_survey' ); ?>

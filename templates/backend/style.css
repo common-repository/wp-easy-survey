@@ -1,0 +1,444 @@
+/**	Common part	*/
+.wpes-clear {
+	clear: both;
+}
+.wpes-hide {
+	display: none;
+}
+.wpes-required-mark {
+	color: red;
+	font-weight: bold;
+}
+.wpes-admin-body label span {
+	cursor: auto;
+}
+
+.wpes-loading-picture {
+	vertical-align: middle;
+}
+
+.wpes-admin-post-type-wpes_survey #misc-publishing-actions div:nth-child(2), .wpes-admin-post-type-wpes_survey #misc-publishing-actions div:nth-child(3) {
+	/* display: none; */
+}
+
+#wpes_survey-issues .inside {
+	margin: 3px;
+	padding: 0px
+}
+
+.wpes-survey-item-description {
+	font-style: italic;
+	font-weight: normal !important;
+}
+
+.wpes-custom-tree-item .wpes-custom-tree-list a.wpes-cpt-custom-add-button, ol.wpes-custom-tree-dragel a.wpes-cpt-custom-add-button {
+	/* display: none; */
+}
+
+.wpes-root-issue-actions {
+	float: right;
+	margin: 16px 0 0 0;
+}
+.wpes-root-issue-actions a {
+	margin-left: 6px !important;
+}
+
+span.wpes-issue-edition-helper {
+	font-style: italic;
+	font-size: 9px;
+}
+
+.wpes-issue-thumbnail-container {
+	width: 90px;
+	vertical-align: top;
+}
+.wpes-issue-thumbnail-container img {
+	border: 1px solid grey;
+}
+#wpes-survey-item-edition-form table {
+	width: 100%;
+	border-collapse: collapse;
+}
+#wpes-survey-item-edition-form-submit {
+	float: right;
+}
+#wpes-survey-item-edition-form textarea {
+	width: 100%;
+}
+.wpes-issue-edition-form td {
+	vertical-align: top;
+	padding:0 0 9px 16px;
+}
+.wpes-issue-edition-form-answers {
+	margin: 0px;
+}
+.wpes-issue-edition-form-answers li {
+	float: left;
+	margin: 0 5px;
+}
+.wpes-mass-action-on-answer-for-issue {
+	cursor: pointer;
+}
+
+#wpes-survey-item-edition-form-save-in-progress {
+	margin: 3px 12px;
+}
+.wpes-survey-item-edition-form-message {
+	margin: 0px !important;
+}
+.wpes-survey-current-state {
+	float: right;
+	width: 40%;
+}
+.wpes-survey-current-state .hndle {
+	cursor: auto !important;
+}
+.wpes-survey-content {
+	width: 60%;
+	float: left;
+}
+.wpes-survey-issue-response-table {
+	width: 95%;
+	border-collapse: collapse;
+}
+.wpes-survey-issue-response-table td textarea {
+	width: 100%;
+}
+
+.wpes-survey-node-actions-container img {
+	cursor: pointer;
+}
+.wpes-survey-node-actions-container a img {
+}
+.wpes-survey-node-actions-container{
+	float: right;
+	margin: 2px 0 0;
+}
+.wpes-survey-node-main-container {
+	width: 75%;
+	float: left;
+	margin-top: 4px;
+}
+
+.wpes-msg-udpdate {
+	background-color: #FFFFE0;
+    border: 1px solid #E6DB55;
+    padding: 2px 4px;
+}
+.wpes-msg-error {
+	background-color: #FFEBE8;
+    border: 1px solid #CC0000;
+    padding: 2px 4px;
+}
+
+.wpes-final-survey-answer-container li {
+	float: left;
+	margin: 0 12px 0 0;
+}
+.wpes-final-survey-issue-save-in-progress {
+	display: none;
+	margin: 3px 6px;
+	vertical-align: middle;
+}
+.wpes-final-survey-issue-save-state-msg {
+	display: none;
+	margin: 0 32px;
+}
+
+.wpes-final-survey-progressbar{
+	width: 100%;
+	border: 1px solid #AAAAAA;
+	border-radius: 4px;
+}
+.wpes-final-survey-progressbar-progression{
+	clear: both;
+	background-color: #AAAAAA;
+	border-right: 1px solid #AAAAAA;
+}
+.wpes-survey-progression-current-100, .wpes-survey-progression-current-0 {
+	display: none;
+}
+
+.wpes-final-survey-stats-container, .wpes-final-survey-evaluation-state, .wpes-custom-dialog {
+	margin: 0 0 35px 0;
+	border: 1px solid #CCCCCC;
+}
+.wpes-final-survey-stats-answer-repartition canvas {
+	display: block;
+    margin: 0 auto;
+}
+.wpes-final-survey-answer-legend-color {
+	width: 30px;
+	height: 15px;
+}
+
+
+.wpes-survey-issue-list-for-answer ol.wpes-survey-issue-list-for-answer li span {
+	text-decoration: underline;
+}
+#TB_ajaxContent .wpes-survey-issue-list-for-answer li {
+	margin: 0 0 20px 0;
+}
+#TB_ajaxContent .wpes-final-survey-last-answers {
+	word-wrap: break-word;
+}
+
+.wpes-answer-type-options {
+	margin: 0 30px;
+}
+input[type=text].wpes-answer-type-options-content {
+	width: 500px;
+}
+#wpes-answer-options-parameters-select-list-content {
+	width: 25% !important;
+}
+.wpes-issue-answer-slider-final-value {
+	margin: -4px 0 0 0 !important;
+	width: 30px;
+}
+.wpes-issue-answer-detail-input {
+	margin: -4px 0 0 0 !important;
+}
+.wpes-final-answer-display-long-text label, .wpes-final-answer-display-select-list label {
+	vertical-align: top !important;
+}
+.wpes-final-answer-display-long-text textarea {
+	width: auto !important;
+}
+.wpes-answer-select-list, .wpes-answer-new-item-into-select-list {
+	margin: 0px !important;
+	width: 25%;
+}
+.wpes-answer-select-list .wpes-custom-tree3-content {
+	padding: 1px 1px 0 1px;
+}
+.wpes-custom-tree3-content::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.wpes-answer-select-list .wpes-custom-tree3-content input {
+	width: 88%;
+	margin: -2px 1px 1px 1px !important;
+	height: 30px !important;
+}
+.wpes-answer-type-select-list-handle {
+	height: 21px;
+	float: left;
+	margin: 0;
+	padding-top: 3px;
+	cursor: pointer;
+	width: 30px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+    border: 1px solid #aaa;
+    background: #ddd;
+    background: -webkit-linear-gradient(top, #ddd 0%, #bbb 100%);
+    background: -moz-linear-gradient(top, #ddd 0%, #bbb 100%);
+    background: linear-gradient(top, #ddd 0%, #bbb 100%);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.wpes-answer-type-select-list-handle:before {
+	content: '≡';
+	display: block;
+	text-align: center;
+	text-indent: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: normal;
+	cursor: move;
+}
+.wpes-answer-type-select-list-handle:hover {
+	background: #ddd;
+}
+.wpes-answer-type-selectlist-item-remover {
+	float: right;
+	margin: 3px 1px;
+	background: url(../../../../../wp-admin/images/xit-2x.gif);
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.wpes-answer-type-selectlist-item-remover:hover {
+	background-position: 20px;
+}
+.wpes-answer-new-item-into-select-list input {
+	width: 75%;
+}
+.wpes-final-evaluation-print {
+	display: inline-block;
+}
+.wpes-final-evaluation-print li {
+	display: inline-block;
+}
+.wpes-final-evaluation-print li:after {
+	content: "|";
+}
+.wpes-final-evaluation-print li:last-child:after {
+	content: "";
+}
+.wpes-final-evaluation-print li a{
+	text-decoration: none;
+}
+
+.wpes-final-survey-display-preview {
+	float: right;
+	width: 35%;
+	padding: 0 0 0 25px;
+	border-left: 1px solid #C0C0C0;
+}
+.wpes-final-survey-display-preview div {
+	float: none;
+	width: 100%;
+}
+.wpes-answer_final-action-button {
+	margin: 0 0 0 6px !important;
+}
+
+.wpes-answer-final-action-loader-container {
+	padding: 6px 0;
+    text-align: center;
+    width: 60%;
+}
+.wpes-final-survey-stats-closed-evaluation-container {
+	margin: 20px 0 0 0;
+}
+.wpes-final-survey-stats-closed-evaluation-container ul {
+	margin: 0 0 0 15px !important;
+	list-style-type: disc !important;
+	max-height: 150px;
+	overflow-y: scroll;
+}
+.wpes-final-survey-closed-evaluation-list-viewer {
+	float: left;
+	margin: 6px 3px 0;
+}
+
+.wpes-final-survey-evaluation-close-button, .wpes-final-survey-new-evaluation-start {
+	margin: 0 6px;
+}
+
+.wpes-final-survey-last-answer-detail-display {
+	width: 95%;
+	border-collapse: collapse;
+}
+.wpes-final-survey-last-answer-detail-display td:last-child img {
+	cursor: pointer;
+}
+.wpes-final-survey-last-answer-detail-display td {
+	padding: 0px;
+}
+.wpes-answer-info {
+	font-weight: bold;
+	text-decoration: none !important;
+}
+.wpes-final-answer-history-opener {
+	margin: 0 0 0 12px;
+	font-style: italic;
+	font-size: 11px;
+	cursor: pointer;
+}
+.wpes-final-answer-history {
+	border: 1px solid #6D6D6D;
+	display: none;
+	border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+	width: 95%;
+	margin: 10px auto;
+}
+.wpes-final-answer-history h3 {
+	background: linear-gradient(to top, #6D6D6D, #808080) repeat scroll 0 0 #777777 !important;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #FFFFFF !important;
+    height: 15px;
+    margin: 0 !important;
+    padding: 3px !important;
+    text-align: center;
+    cursor: auto !important;
+    line-height: 0.7 !important;
+}
+.wpes-final-answer-note-picto {
+	vertical-align: middle;
+	width: 16px;
+	margin: 0 6px 0;
+}
+.wpes-final-answer-history-full-opener {
+	background-position: -240px -20px;
+	background-image: url("../../../../../wp-includes/images/wpicons.png");
+	display: block;
+    height: 20px;
+    width: 20px;
+    margin: -1px 2px;
+    float: right;
+}
+.wpes-final-answer-history-closer {
+	background-position: 53px 0;
+	background-image: url("../../../../../wp-includes/images/uploader-icons.png");
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+
+.wpes-final-survey-answer-given {
+	margin: 0 6px 0 28px;
+	text-decoration: none !important;
+}
+.wpes-final-answer-history-content .wpes-final-survey-answer-given-notes-final-container, .wpes-final-survey-last-answer-detail-display .wpes-final-survey-answer-given-notes-final-container {
+	max-height: 80px;
+    overflow-y: auto;
+    width: 100%;
+}
+.wpes-final-survey-last-answer-detail-display td:nth-child(2) {
+/* 	width: 45%; */
+}
+.wpes-final-answer-history-content {
+	max-height: 350px;
+	overflow-y: auto;
+}
+.wpes-final-answer-history-content table, #TB_ajaxContent table {
+	width: 100% !important;
+	margin:6px 0;
+}
+.wpes-final-answer-history-content table td:last-child, #TB_ajaxContent table td:last-child {
+	/* width: 50%; */
+}
+
+.wpes-existing-export-container {
+    max-height: 80px;
+    overflow-y: auto;
+    width: 320px;
+}
+.wpes-survey-selection {
+	width: 70%;
+	margin: 10px auto;
+	text-align: center;
+}
+.wpes-survey-selection:after, .wpes-survey-content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.wpes-survey-main-container {
+	width: 100%;
+}
+.wpes-survey-main-container > div.wpes-custom-dialog {
+	width: 45%;
+	float: left;
+	margin: 15px 2%;
+}
+.wpes-survey-title {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	text-decoration: underline;
+	font-weight: bold;
+	padding: 5px 0 20px 0;
+	margin: 0 0 20px;
+	border-bottom: 1px solid #DDD;
+}
+button.wpes-survey-change-button.wpes-bton-fifth.hidden {
+	display: none!important;
+}

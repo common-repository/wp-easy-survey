@@ -1,0 +1,791 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp easy survey V0.1\n"
+"POT-Creation-Date: 2016-09-30 15:01+0200\n"
+"PO-Revision-Date: 2016-09-30 15:01+0200\n"
+"Last-Translator: Equipe de développement de digirisk <dev@digirisk.com>\n"
+"Language-Team: Eoxia devloppement team <dev@eoxia.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_x;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../core/config.php:13 ../core/display.class.php:13
+#: ../core/file_include.php:13 ../core/survey.action.php:12
+#: ../core/wp-easy-survey.class.php:13 ../modules/answer.class.php:12
+#: ../modules/issue.class.php:12 ../modules/survey.class.php:12
+#: ../templates/backend/tpl_elements.tpl.php:13
+msgid "You are not allowed to use this service."
+msgstr "Vous n'êtes pas autorisé à utiliser ce service"
+
+#: ../core/config.php:71
+msgid "Not answered"
+msgstr "Non répondue"
+
+#: ../core/config.php:75
+msgid "In progress"
+msgstr "En cours"
+
+#: ../core/config.php:79
+msgid "Answered"
+msgstr "Répondue"
+
+#: ../core/display.class.php:154
+#, php-format
+msgid ""
+"The asked template could not be found in any of existing templates. Check "
+"for \"%s\" template"
+msgstr ""
+"Le modèle demandé n'a pu être trouvé, merci de vérifier si \"%s\" existe bien"
+
+#: ../modules/answer.class.php:68 ../modules/answer.class.php:72
+#: ../modules/answer.class.php:83
+msgid "Answers"
+msgstr "Réponses"
+
+#: ../modules/answer.class.php:69 ../modules/answer.class.php:70
+msgid "Answer"
+msgstr "Réponse"
+
+#: ../modules/answer.class.php:71
+msgid "Parent Answer:"
+msgstr "Réponse parent:"
+
+#: ../modules/answer.class.php:73
+msgid "View Answer"
+msgstr "Voir les réponses"
+
+#: ../modules/answer.class.php:74
+msgid "Add New Answer"
+msgstr "Ajouter une réponse"
+
+#: ../modules/answer.class.php:75
+msgid "New Answer"
+msgstr "Nouvelle réponse"
+
+#: ../modules/answer.class.php:76
+msgid "Edit Answer"
+msgstr "&Eacute;diter une réponse"
+
+#: ../modules/answer.class.php:77
+msgid "Update Answer"
+msgstr "Mettre à jour la réponse"
+
+#: ../modules/answer.class.php:78
+msgid "Search Answers"
+msgstr "Rechercher dans les réponses"
+
+#: ../modules/answer.class.php:79
+msgid "No answers found"
+msgstr "Aucune réponse trouvée"
+
+#: ../modules/answer.class.php:80
+msgid "No answers found in Trash"
+msgstr "Aucune réponse trouvée dans la corbeille"
+
+#: ../modules/answer.class.php:84
+msgid "Answers management"
+msgstr "Gestion des réponses"
+
+#: ../modules/answer.class.php:190
+msgid "Answer type"
+msgstr "Type de réponse"
+
+#: ../modules/answer.class.php:193
+msgid "Answer options"
+msgstr "Options pour la réponse"
+
+#: ../modules/answer.class.php:202
+msgid "Text display"
+msgstr "Affichage d'un texte"
+
+#: ../modules/answer.class.php:206 ../modules/answer.class.php:350
+msgid "Percentage"
+msgstr "Pourcentage"
+
+#: ../modules/answer.class.php:210
+msgid "Short text"
+msgstr "Texte court"
+
+#: ../modules/answer.class.php:214
+msgid "Long text"
+msgstr "Texte long"
+
+#: ../modules/answer.class.php:218
+msgid "Select list"
+msgstr "Liste déroulante"
+
+#: ../modules/answer.class.php:330
+msgid "Yes"
+msgstr "Oui"
+
+#: ../modules/answer.class.php:335
+msgid "No"
+msgstr "Non"
+
+#: ../modules/answer.class.php:340
+msgid "NA"
+msgstr "NA"
+
+#: ../modules/answer.class.php:345
+msgid "NC"
+msgstr "NC"
+
+#: ../modules/answer.class.php:630
+msgid "Selected answer is used again"
+msgstr "La réponse sélectionnée est à nouveau utilisée"
+
+#: ../modules/answer.class.php:644
+msgid "You're answer have been saved succesfully"
+msgstr "Votre réponse a été enregistrée avec succés"
+
+#: ../modules/issue.class.php:114
+msgid "Issues"
+msgstr "Questions"
+
+#: ../modules/issue.class.php:115 ../modules/issue.class.php:116
+msgid "Issue"
+msgstr "Question"
+
+#: ../modules/issue.class.php:117
+msgid "Parent Issue:"
+msgstr "Question parente:"
+
+#: ../modules/issue.class.php:118
+msgid "All Issues"
+msgstr "Toutes les questions"
+
+#: ../modules/issue.class.php:119
+msgid "View Issue"
+msgstr "Voir la question"
+
+#: ../modules/issue.class.php:120
+msgid "Add New Issue"
+msgstr "Ajouter une question"
+
+#: ../modules/issue.class.php:121
+msgid "New Issue"
+msgstr "Nouvelle question"
+
+#: ../modules/issue.class.php:122
+msgid "Edit Issue"
+msgstr "&Eacute;diter la question"
+
+#: ../modules/issue.class.php:123
+msgid "Update Issue"
+msgstr "Mettre à jour la question"
+
+#: ../modules/issue.class.php:124
+msgid "Search issues"
+msgstr "Rechercher dans les questions"
+
+#: ../modules/issue.class.php:125
+msgid "No issues found"
+msgstr "Aucunes questions trouvées"
+
+#: ../modules/issue.class.php:126
+msgid "No issues found in Trash"
+msgstr "Aucune question trouvée dans la corbeille"
+
+#: ../modules/issue.class.php:129
+msgid "issues"
+msgstr "questions"
+
+#: ../modules/issue.class.php:130
+msgid "Issues management"
+msgstr "Gestion des questions"
+
+#: ../modules/issue.class.php:151
+msgid "Final Issues"
+msgstr "Question finale"
+
+#: ../modules/issue.class.php:152 ../modules/issue.class.php:153
+msgid "Final Issue"
+msgstr "Finale"
+
+#: ../modules/issue.class.php:154
+msgid "Parent Final Issue:"
+msgstr "Parent de la question:"
+
+#: ../modules/issue.class.php:155
+msgid "All Final Issues"
+msgstr "Toutes les questions"
+
+#: ../modules/issue.class.php:156
+msgid "View Final Issue"
+msgstr "Voir la question"
+
+#: ../modules/issue.class.php:157
+msgid "Add New Final Issue"
+msgstr "Ajouter une question"
+
+#: ../modules/issue.class.php:158
+msgid "New Final Issue"
+msgstr "Nouvelle question"
+
+#: ../modules/issue.class.php:159
+msgid "Edit Final Issue"
+msgstr "&Eacute;diter la question"
+
+#: ../modules/issue.class.php:160
+msgid "Update Final Issue"
+msgstr "Mettre à jour la question"
+
+#: ../modules/issue.class.php:161
+msgid "Search Final issues"
+msgstr "Rechercher dans les questions"
+
+#: ../modules/issue.class.php:162
+msgid "No Final issues found"
+msgstr "Aucune question trouvée"
+
+#: ../modules/issue.class.php:163
+msgid "No Final issues found in Trash"
+msgstr "Aucune question trouvée dans la corbeille"
+
+#: ../modules/issue.class.php:166
+msgid "Final issues"
+msgstr "Questions"
+
+#: ../modules/issue.class.php:167
+msgid "Final Issues management"
+msgstr "Gestion des questions"
+
+#: ../modules/issue.class.php:374
+msgid "An error occured while attempting to save item."
+msgstr "Une erreur est survenue lors de l'enregistrement."
+
+#: ../modules/issue.class.php:437
+msgid "You're item has been saved succefully"
+msgstr "Votre question a été enregistrée avec succès"
+
+#: ../modules/issue.class.php:483
+msgid "Selected items has been associated succesfully"
+msgstr "Les éléments sélectionnés ont été associés avec succès"
+
+#: ../modules/issue.class.php:498
+msgid "An error occured while attempting to save item association"
+msgstr "Une erreur est survenue lors de l'association des éléments"
+
+#: ../modules/survey.class.php:88 ../modules/survey.class.php:92
+#: ../modules/survey.class.php:103 ../modules/survey.class.php:129
+msgid "Surveys"
+msgstr "Formulaires"
+
+#: ../modules/survey.class.php:89 ../modules/survey.class.php:90
+msgid "Survey"
+msgstr "Formulaire"
+
+#: ../modules/survey.class.php:91 ../modules/survey.class.php:128
+msgid "Parent Survey:"
+msgstr "Formulaire parent:"
+
+#: ../modules/survey.class.php:93
+msgid "View Survey"
+msgstr "Voir le formulaire"
+
+#: ../modules/survey.class.php:94
+msgid "Add New Survey"
+msgstr "Ajouter un nouveau formulaire"
+
+#: ../modules/survey.class.php:95
+msgid "New Survey"
+msgstr "Nouveau formulaire"
+
+#: ../modules/survey.class.php:96
+msgid "Edit Survey"
+msgstr "&Eacute;diter le formulaire"
+
+#: ../modules/survey.class.php:97
+msgid "Update Survey"
+msgstr "Mettre à jour le formulaire"
+
+#: ../modules/survey.class.php:98
+msgid "Search Surveys"
+msgstr "Rechercher dans les formulaires"
+
+#: ../modules/survey.class.php:99
+msgid "No surveys found"
+msgstr "Aucun formulaire trouvés"
+
+#: ../modules/survey.class.php:100
+msgid "No surveys found in Trash"
+msgstr "Aucun formulaire trouvés dans la corbeille"
+
+#: ../modules/survey.class.php:104
+msgid "Surveys management"
+msgstr "Gestion des formulaires"
+
+#: ../modules/survey.class.php:125 ../modules/survey.class.php:140
+msgid "Final Surveys"
+msgstr "Formulaires"
+
+#: ../modules/survey.class.php:126 ../modules/survey.class.php:127
+msgid "Final Survey"
+msgstr "Formulaire"
+
+#: ../modules/survey.class.php:130
+msgid "View Final Survey"
+msgstr "Voir le formulaire"
+
+#: ../modules/survey.class.php:131
+msgid "Add New Final Survey"
+msgstr "Ajouter un formulaire"
+
+#: ../modules/survey.class.php:132
+msgid "New Final Survey"
+msgstr "Nouveau formulaire"
+
+#: ../modules/survey.class.php:133
+msgid "Edit Final Survey"
+msgstr "&Ecaute;diter le formulaire"
+
+#: ../modules/survey.class.php:134
+msgid "Update Final Survey"
+msgstr "Mettre à jour le formulaire"
+
+#: ../modules/survey.class.php:135
+msgid "Search Final Surveys"
+msgstr "Rechercher dans les formulaires"
+
+#: ../modules/survey.class.php:136
+msgid "No Final surveys found"
+msgstr "Aucun formulaire trouvé"
+
+#: ../modules/survey.class.php:137
+msgid "No Final surveys found in Trash"
+msgstr "Aucun formulaire trouvé dans la corbeille"
+
+#: ../modules/survey.class.php:141
+msgid "Final Surveys management"
+msgstr "Gestion des formulaires"
+
+#: ../modules/survey.class.php:191
+msgid "Survey details"
+msgstr "Détails du formulaire"
+
+#: ../modules/survey.class.php:194 ../modules/survey.class.php:199
+msgid "Survey association"
+msgstr "Association des formulaires"
+
+#: ../modules/survey.class.php:556 ../templates/backend/tpl_elements.tpl.php:74
+msgid "Available answers"
+msgstr "Réponse possible"
+
+#: ../modules/survey.class.php:559
+msgid "No answer are associated to this issue for the moment"
+msgstr "Aucune réponse n'est asociée a cette question pour le moment"
+
+#: ../modules/survey.class.php:864
+#, php-format
+msgid ""
+"One of those information is missing: Element id.%s / Survey id.%s / Final "
+"survey id.%s"
+msgstr ""
+"Une des informations suivantes est manquante: Elément id.%s / Formulaire id."
+"%s / Formulaire final id.%s"
+
+#: ../modules/survey.class.php:886 ../modules/survey.class.php:928
+msgid "The file have been created succesfully"
+msgstr "Le fichier a été créé avec succès"
+
+#: ../modules/survey.class.php:909
+#, php-format
+msgid ""
+"An exception (%s) has been thrown for Element id.%s / Survey id.%s / Final "
+"survey id.%s"
+msgstr ""
+"Une exception (%s) a été lancée lors de la génération du fichier pdf. lément "
+"id.%s / Formulaire id.%s / Formulaire final id.%s"
+
+#: ../modules/survey.class.php:1032
+#, php-format
+msgid ""
+"The final survey audit has not been found: Element id.%s / Survey id.%s / "
+"Final survey id.%s"
+msgstr ""
+"Le formulaire final n'a pu être trouvé: Elément id.%s / Formulaire id.%s / "
+"Formulaire final id.%s"
+
+#: ../modules/survey.class.php:1037
+#, php-format
+msgid ""
+"There are no closed evaluation for current element id.%s for survey id.%s"
+msgstr ""
+"Il y a des évaluation non clôturée pour cet élément id.%s pour le formulaire "
+"id.%s"
+
+#: ../modules/survey.class.php:1091
+#: ../templates/backend/final-survey/answer-given.php:9
+#: ../templates/backend/final-survey/answer-given.php:18
+#, php-format
+msgid "The %1$s %2$s answered"
+msgstr "Réponse de %2$s le %1$s"
+
+#: ../modules/survey.class.php:1091
+#: ../templates/backend/final-survey-result/view.php:16
+#: ../templates/backend/final-survey-result/view.php:17
+#: ../templates/backend/final-survey/answer-given.php:10
+#: ../templates/backend/final-survey/answer-given.php:18
+#: ../templates/backend/final-survey/evaluation-closed.php:13
+#: ../templates/backend/final-survey/evaluation-closed.php:14
+#: ../templates/backend/final-survey/evaluation-informations.php:10
+#: ../templates/backend/metabox-association.php:27
+#, php-format
+msgid "%1$s \\a\\t %2$s"
+msgstr "%1$s à %2$s"
+
+#: ../modules/survey.class.php:1101
+#: ../templates/backend/final-survey/answer-waiting.php:1
+msgid "No answer were given to this issue"
+msgstr "Il n'y a pas de réponse donnée à cette question"
+
+#: ../modules/survey.class.php:1147
+#: ../templates/backend/final-survey/survey.php:10
+#, php-format
+msgid "There are no issues in this survey for the moment. %s"
+msgstr "Il n'y a aucune question dans ce formulaire pour le moment. %s"
+
+#: ../modules/survey.class.php:1147
+#: ../templates/backend/final-survey/survey.php:10
+msgid "Edit survey"
+msgstr "&Eacute;diter le formulaire"
+
+#: ../templates/backend/final-survey-result/stats-detail.php:36
+#: ../templates/backend/final-survey-result/stats-detail.php:42
+msgid "0%"
+msgstr "0%"
+
+#: ../templates/backend/final-survey-result/stats-detail.php:37
+#: ../templates/backend/final-survey-result/stats-detail.php:44
+msgid "100%"
+msgstr "100%"
+
+#: ../templates/backend/final-survey-result/stats-detail.php:79
+msgid "Answer repartition"
+msgstr "Répartition des réponses"
+
+#: ../templates/backend/final-survey-result/stats-detail.php:96
+msgid "This survey has no response for the moment"
+msgstr "Ce formulaire n'a pas de réponse pour le moment"
+
+#: ../templates/backend/final-survey-result/stats.php:2
+msgid "Survey statistics"
+msgstr "Progression du formulaire"
+
+#: ../templates/backend/final-survey-result/view.php:16
+#: ../templates/backend/final-survey/evaluation-closed.php:13
+#: ../templates/backend/final-survey/evaluation-informations.php:10
+#: ../templates/backend/metabox-association.php:27
+#, php-format
+msgid "Started by %1$s on %2$s"
+msgstr "Démarré par %1$s le %2$s"
+
+#: ../templates/backend/final-survey-result/view.php:17
+#: ../templates/backend/final-survey/evaluation-closed.php:14
+#, php-format
+msgid "Closed by %1$s on %2$s"
+msgstr "Clôturé par %1$s le %2$s"
+
+#: ../templates/backend/final-survey-result/view.php:20
+msgid "Evaluation final result"
+msgstr "Réponses finales"
+
+#: ../templates/backend/final-survey/answer-given.php:29
+#, php-format
+msgid "View previous answers (%s)"
+msgstr "Voir les réponses précédentes (%s)"
+
+#: ../templates/backend/final-survey/answer-given.php:45
+msgid "Notes given per user on this answer"
+msgstr "Notes saisies pas l'utilisateur"
+
+#: ../templates/backend/final-survey/answer-given.php:53
+#: ../templates/backend/nestable_tree/node_content.php:9
+msgid "Edit"
+msgstr "&Eacute;diter"
+
+#: ../templates/backend/final-survey/answer-given.php:58
+msgid "Re-use this answer"
+msgstr "Réutiliser cette réponse"
+
+#: ../templates/backend/final-survey/answer-given.php:71
+msgid "History for answer"
+msgstr "Historique des réponses"
+
+#: ../templates/backend/final-survey/answer-given.php:73
+msgid "Complete answer history"
+msgstr "Historique des réponses"
+
+#: ../templates/backend/final-survey/evaluation-closed.php:3
+msgid "Closed evaluation list"
+msgstr "Liste des évaluations clôturées"
+
+#: ../templates/backend/final-survey/evaluation-closed.php:17
+msgid "View"
+msgstr "Voir"
+
+#: ../templates/backend/final-survey/evaluation-closed.php:21
+msgid "Complete list"
+msgstr "Liste complète"
+
+#: ../templates/backend/final-survey/evaluation-informations.php:2
+msgid "Survey evaluation informations"
+msgstr "Informations sur le formulaire en cours"
+
+#: ../templates/backend/final-survey/evaluation-informations.php:12
+msgid "Close evaluation"
+msgstr "Clôturer l'évaluation"
+
+#: ../templates/backend/final-survey/evaluation-informations.php:14
+#: ../templates/backend/final-survey/evaluation-notstarted.php:6
+#: ../templates/backend/tpl_elements.tpl.php:31
+#: ../templates/backend/tpl_elements.tpl.php:144
+msgid "save in progress"
+msgstr "enregistrement en cours"
+
+#: ../templates/backend/final-survey/evaluation-notstarted.php:2
+msgid "There are no evaluation started for the moment"
+msgstr "Aucune évaluation n'a été démarrée pour le moment"
+
+#: ../templates/backend/final-survey/evaluation-notstarted.php:4
+msgid "Start a new evaluation with the current survey structure"
+msgstr "Démarrer une évaluation à partir du formulaire"
+
+#: ../templates/backend/final-survey/export-link.php:6
+msgid "Export result"
+msgstr "Exporter les résultats"
+
+#: ../templates/backend/final-survey/export-link.php:8
+msgid "ODT"
+msgstr "ODT"
+
+#: ../templates/backend/final-survey/export-link.php:9
+msgid "PDF"
+msgstr "PDF"
+
+#: ../templates/backend/final-survey/survey.php:25
+msgid "Loading"
+msgstr "Chargement en cours"
+
+#: ../templates/backend/header.js.php:13
+msgid "You have to chose at least one answer before saving"
+msgstr "Vous devez donnez au moins une réponse pour pouvoir enregistrer"
+
+#: ../templates/backend/header.js.php:14
+msgid ""
+"The answer you choose need some specification. Please fill corresponding "
+"field before saving"
+msgstr ""
+"La réponse que vous avez sélectionnée nécessite une précision. Merci de "
+"remplir le champs correspondant."
+
+#: ../templates/backend/header.js.php:15
+msgid "Are you sure you want to delete this element?"
+msgstr "&Ecirc;tes vous sûr de vouloir supprimer cet élément?"
+
+#: ../templates/backend/header.js.php:16
+msgid ""
+"Are you sure you want to delete this element?\\r\\nThere are some issues "
+"contained that will be unavailable after this action."
+msgstr ""
+"&Ecirc;tes vous sûr de vouloir supprimer cet élément?\\r\\nIl y a des sous-"
+"questions qui seront indisponible une fois cette action effectuée."
+
+#: ../templates/backend/header.js.php:17
+msgid "Are you sure you want to dissociate this issue?"
+msgstr "&Ecirc;tes vous sûr de vouloir supprimer cette question?"
+
+#: ../templates/backend/header.js.php:18
+msgid ""
+"Are you sure you want to dissociate this issue?\\r\\nIssues contained into "
+"this one your are deleting won't be associated to this survey after this "
+"action"
+msgstr ""
+"&Ecirc;tes vous sûr de vouloir supprimer cette question?\\r\\nIl y a des "
+"sous-questions qui seront indisponible une fois cette action effectuée."
+
+#: ../templates/backend/header.js.php:19
+msgid "Are you sure you want to delete this answer possibility?"
+msgstr "&Ecirc;tes vous sûr de vouloir supprimer cette possibilité de réponse?"
+
+#: ../templates/backend/header.js.php:20
+msgid "Please fill in new value field before clicking on addition button"
+msgstr "Merci de donner un nom avant d'enregistrer"
+
+#: ../templates/backend/header.js.php:21
+msgid ""
+"Are you sure you want to close this evaluation?\\r\\nAfter closing an "
+"evaluation no changes would be possible"
+msgstr ""
+"&Eacute;tes vous sûr de vouloir ferme cet évaluation?\\r\\nAucun changement "
+"ne sera possible une fois l'évaluation clôturée"
+
+#: ../templates/backend/header.js.php:22
+msgid ""
+"Are you sure you want to close this evaluation while not all issues have an "
+"answer?\\r\\nAfter closing an evaluation no changes would be possible"
+msgstr ""
+"&Eacute;tes vous sûr de vouloir clôturer cette évaluation alors qu'il reste "
+"des questions sans réponses?\\r\\nAucun changement ne sera possible une fois "
+"l'évaluation clôturée"
+
+#: ../templates/backend/header.js.php:23
+msgid "Collapse"
+msgstr "Réduire"
+
+#: ../templates/backend/header.js.php:24
+msgid "Expand"
+msgstr "Développer"
+
+#: ../templates/backend/metabox-association.php:1
+msgid "Back to survey list"
+msgstr "Revenir au choix du formulaire"
+
+#: ../templates/backend/metabox-association.php:10
+msgid "Use selected survey"
+msgstr "Voir le détail du formulaire"
+
+#: ../templates/backend/metabox-association.php:19
+#, php-format
+msgid "Existing evaluation for survey : %s"
+msgstr "Liste des évaluations pour le formulaire : %s"
+
+#: ../templates/backend/metabox-association.php:29
+msgid "View survey details"
+msgstr "Voir l'évaluation en cours"
+
+#: ../templates/backend/nestable_tree/node_container.php:10
+msgid "Loading children"
+msgstr "Chargement en cours"
+
+#: ../templates/backend/nestable_tree/node_content.php:5
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../templates/backend/nestable_tree/node_content.php:6
+msgid "Dissociate issue"
+msgstr "Dissocier la question"
+
+#: ../templates/backend/nestable_tree/node_content.php:8
+#, php-format
+msgid "Edit %s"
+msgstr "&Eacute;diter %s"
+
+#: ../templates/backend/nestable_tree/node_content.php:12
+#: ../templates/backend/nestable_tree/survey.php:17
+#, php-format
+msgid "Add a new issue for %s"
+msgstr "Ajouter une nouvelle question pour %s"
+
+#: ../templates/backend/nestable_tree/node_content.php:13
+#: ../templates/backend/nestable_tree/survey.php:18
+msgid "Add new issue"
+msgstr "Ajouter une question"
+
+#: ../templates/backend/nestable_tree/survey.php:12
+msgid "This survey is empty for the moment."
+msgstr "Ce formulaire est vide pour le moment"
+
+#: ../templates/backend/tpl_elements.tpl.php:29
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../templates/backend/tpl_elements.tpl.php:56
+msgid "Title"
+msgstr "Titre"
+
+#: ../templates/backend/tpl_elements.tpl.php:57
+msgid "Enter title here"
+msgstr "Entrer le titre ici"
+
+#: ../templates/backend/tpl_elements.tpl.php:62
+msgid "Description"
+msgstr "Description"
+
+#: ../templates/backend/tpl_elements.tpl.php:74
+msgid ""
+"You can chose different answers that will be available for this issue in "
+"final survey"
+msgstr "Choisissez les réponses possible pour cette question"
+
+#: ../templates/backend/tpl_elements.tpl.php:75
+msgid "Check all"
+msgstr "Tous"
+
+#: ../templates/backend/tpl_elements.tpl.php:75
+msgid "Uncheck all"
+msgstr "Aucun"
+
+#: ../templates/backend/tpl_elements.tpl.php:106
+msgid "Select issues to associate to current selected element"
+msgstr "Choisissez les question à associer à l'élément courant"
+
+#: ../templates/backend/tpl_elements.tpl.php:131
+msgid "Notes"
+msgstr "Notes"
+
+#: ../templates/backend/tpl_elements.tpl.php:137
+msgid "Next verification date"
+msgstr "Date de la prochaine vérification"
+
+#: ../templates/backend/tpl_elements.tpl.php:142
+msgid "Save answer"
+msgstr "Enregistrer la réponse"
+
+#: ../templates/backend/tpl_elements.tpl.php:143
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../templates/backend/tpl_elements.tpl.php:206
+msgid "There are no answers for this issue"
+msgstr "Il n'y a pas de réponse pour cette question"
+
+#: ../templates/backend/tpl_elements.tpl.php:238
+msgid ""
+"Choose a color for this answer. This will help when viewing answer "
+"repartition in surveys' statistics area"
+msgstr ""
+"Sélectionnez une couleur pour cette réponse. Cela vous permettra de "
+"différencier rapidement chaque réponse"
+
+#: ../templates/backend/tpl_elements.tpl.php:239
+msgid "Set a unit for this answer"
+msgstr "Indiquer une unité pour cette réponse"
+
+#: ../templates/backend/tpl_elements.tpl.php:240
+msgid "Define final answer state"
+msgstr "Définir l'état final de la réponse"
+
+#: ../templates/backend/tpl_elements.tpl.php:246
+#: ../templates/backend/tpl_elements.tpl.php:252
+msgid "Add a text before answer input"
+msgstr "Ajouter un texte explicatif avant le champs"
+
+#: ../templates/backend/tpl_elements.tpl.php:258
+msgid "User can choose multiple values"
+msgstr "L'utilisateur peut choisir plusieurs valeur"
+
+#: ../templates/backend/tpl_elements.tpl.php:260
+msgid "Create an empty item at top of list"
+msgstr "Ajouter une valeur vide en haut de la liste"
+
+#: ../templates/backend/tpl_elements.tpl.php:262
+msgid "Add a text for the first value of select list"
+msgstr "Ajouter un texte pour la première valeur de la liste déroulante"
+
+#: ../templates/backend/tpl_elements.tpl.php:280
+msgid "Enter a new value for select list"
+msgstr "Ajouter une valeur à la liste déroulante"
+
+#: ../templates/backend/tpl_elements.tpl.php:285
+msgid "Add to list"
+msgstr "Ajouter à la liste"
+
+#~ msgid "%s"
+#~ msgstr "%s"
